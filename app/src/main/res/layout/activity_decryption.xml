@@ -22,12 +22,12 @@
         android:id="@+id/textViewMessage"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:textSize="22sp"
         android:layout_above="@id/buttonDecrypt"
         android:layout_marginStart="@dimen/default_margin"
         android:layout_marginTop="@dimen/default_margin"
         android:layout_marginEnd="@dimen/default_margin"
         android:layout_marginBottom="@dimen/default_margin"
         android:gravity="center"
-        android:hint="@string/hint_unlock" />
+        android:hint="@string/hint_unlock"
+        android:textSize="22sp" />
 </RelativeLayout>
