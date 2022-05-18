@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="uz.elmurod.biometric_data">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher_biometric_s"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_biometric_s_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.BiometricData">
+        <activity
+            android:name="uz.elmurod.biometric_data.ui.SplashActivity"
+            android:theme="@style/Theme.BiometricData.ActionBar"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ui.MainActivity"
+            android:parentActivityName=".ui.ListActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.BiometricData.ActionBar" />
+        <activity
+            android:name=".ui.ListActivity"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.BiometricData.ActionBar"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.EncryptionActivity"
+            android:label="@string/encrypt_message"
+            android:parentActivityName=".ui.ListActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".ui.DecryptionActivity"
+            android:label="@string/decrypt_message"
+            android:parentActivityName=".ui.ListActivity"
+            android:screenOrientation="portrait" />
+    </application>
+
+</manifest>

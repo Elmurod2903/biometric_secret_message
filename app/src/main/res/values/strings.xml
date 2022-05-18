@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Biometric Secret Message</string>
+    <string name="biometric_image_text">Biometric Secret Message </string>
+    <string name="biometrik_image_txt">Biometric Secret </string>
+    <string name="verification">Message</string>
+    <string name="biometric_fragment_text">Biometrik ma\'lumotlardan foydalangan holda tekshirish</string>
+    <string name="biometric_print_txt"> Barmoq izi yoki yuz orqali ishlov berish </string>
+
+
+    <string name="hint_message_input">Xabarni kiriting va uni maxfiy saqlang </string>
+    <string name="use_biometrics">Use Biometrics to Login</string>
+    <string name="encrypt_message">Xabarni Shifrlash</string>
+    <string name="decrypt_message">Xabarni Deshifrlash</string>
+    <string name="message_saved">"Secret message" saqlandi!</string>
+    <string name="hint_unlock">Sizning xabarlaringiz xavfsiz va maxfiydir!\nBiometriyangiz bilan qulfni oching.</string>
+    <string name="parcel_message">parcel_message</string>
+    <string name="hint_no_message">Siz hali hech qanday xabarni saqlamagansiz!</string>
+    <string name="message_no_biometric">Biometrik imzo topilmadi! Avval qurilma sozlamalaridan Biomterics-ni sozlang.</string>
+    <string name="message_encryption_failed">Shifrlash amalga oshmadi</string>
+</resources>
