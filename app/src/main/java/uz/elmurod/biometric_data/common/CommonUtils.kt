@@ -42,7 +42,6 @@ object CommonUtils {
    */
   fun longToDateString(timeInMillis: Long): String {
     val outputDateFormat = DateFormat.getDateTimeInstance()
-
     return outputDateFormat.format(Date(timeInMillis))
   }
 

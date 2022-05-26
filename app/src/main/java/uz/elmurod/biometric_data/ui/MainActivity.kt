@@ -80,7 +80,8 @@ class MainActivity : AppCompatActivity(), BiometricAuthListener {
                 binding.biometricBtn.visibility = View.GONE
             }
             BiometricManager.BIOMETRIC_ERROR_HW_UNAVAILABLE -> {
-                binding.tvBiometricInfo.text = "Biometrik xususiyatlar hozirda mavjud emas."
+                binding.tvBiometricInfo.text = "Biometri" +
+                        "k xususiyatlar hozirda mavjud emas."
                 binding.biometricBtn.visibility = View.GONE
 
             }
